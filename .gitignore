@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data directories
+# Ignore raw uncurated/PII dumps while tracking curated/processed datasets
+data/raw/
+data/raw_*
+*.raw.csv
